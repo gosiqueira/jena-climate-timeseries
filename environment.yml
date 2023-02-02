@@ -1,0 +1,22 @@
+name: jena_forecast
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - ipykernel
+  - ipywidgets
+  - pip:
+    - statsmodels
+    - tensorflow
+    - xgboost
+    - optuna
